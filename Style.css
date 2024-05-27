@@ -512,7 +512,17 @@ section:target {
     top: 10%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 75%;
+    color: #433E3F;
+}
+
+#timeline-divider-edu {
+    position: absolute;
+    width: 0;
+    top: 7%;
+    left: 50%;
+    border: 1px dashed #0096fa6b;
+    height: 76%;
     color: #433E3F;
 }
 
