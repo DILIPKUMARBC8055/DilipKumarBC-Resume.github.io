@@ -221,7 +221,8 @@ section:nth-child(2n + 1) {
     height: 100%;
     color: transparent;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    font-size: x-large;
 }
 
 .portfolio-image-container:hover {
@@ -631,14 +632,23 @@ section:target {
 
 .certificate-list a {
     text-decoration: none;
-    color: inherit; /* Inherits color from the parent */
+    color: inherit;
+    /* Inherits color from the parent */
     padding: 5px;
     border-radius: 5px;
     transition: background-color 0.3s, border-color 0.3s;
 }
 
 .certificate-list a:hover {
-    background-color: #918c8c; /* Adjust background color on hover */
-    color: #fff; /* Adjust text color on hover */
-    border-color: #555; /* Adjust border color on hover */
+    background-color: #918c8c;
+    /* Adjust background color on hover */
+    color: #fff;
+    /* Adjust text color on hover */
+    border-color: #555;
+    /* Adjust border color on hover */
+}
+
+.anchertag {
+    text-decoration: none;
+    color: inherit;
 }
