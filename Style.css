@@ -324,6 +324,15 @@ section:nth-child(2n + 1) {
     width: 50%;
 }
 
+.sixty-percent {
+    height: inherit;
+    width: 65%;
+}
+
+.seventy-percent{
+    height: inherit;
+    width: 75%;
+}
 
 
 
